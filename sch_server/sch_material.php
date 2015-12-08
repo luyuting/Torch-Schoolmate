@@ -17,8 +17,8 @@
 <body>
 <div id="container">
     <form name="frm_material" action="#" method="post">
-        姓&nbsp;&nbsp;&nbsp;名：<input name="name" type="text"><br/>
-        辅导员：<input name="teacher" type="text"><br/>
+        姓&nbsp;&nbsp;&nbsp;名：<input id="user_name" name="name" type="text"><br/>
+        辅导员：<input name="teacher" id="teacher_name" type="text"><br/>
         为了确认您的身份，请输入两个大学同学的姓名：
         <br/>
         <input id="schoolmate1" name="sch_mate_name1" type="text" >
