@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+textarea{
+    width: 100%;
+}
+#con_sub{
+     text-align: center;
+ }
+#submit{
+    margin: 20px;
+    text-align: center;
+    height: 50px;
+    background-color: blue;
+    width: 75%;
+}

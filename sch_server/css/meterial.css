@@ -1,0 +1,30 @@
+*{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+#container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#schoolmate1,#schoolmate2{
+    width: 5em;
+}
+input{
+    border-style: none none solid none;
+    height: 25px;
+}
+textarea{
+    width: 100%;
+}
+#con_sub{
+    text-align: center;
+}
+#submit{
+    margin: 20px;
+    text-align: center;
+    height: 50px;
+    background-color: blue;
+    width: 75%;
+}

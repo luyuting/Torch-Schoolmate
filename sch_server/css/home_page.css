@@ -1,0 +1,24 @@
+*{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    font-weight: 200;
+}
+#contain{
+    margin-top: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo_image{
+    /*图片容器div属性*/
+    text-align:center
+}
+img{
+    /*图片属性*/
+    width: 50%;
+}
+input{
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;               /*按钮边距*/
+}
