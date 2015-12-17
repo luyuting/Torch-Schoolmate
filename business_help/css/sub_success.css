@@ -1,0 +1,30 @@
+*{
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+#container{
+    background-color: rgb(242,242,242);
+}
+#head img{
+    vertical-align: middle;
+    width: 40px;
+    margin: 10px 10px 10px 15px;
+}
+#head,#body,#foot input{
+     background-color: rgb(255,255,255);
+}
+#body p{
+    margin: 10px 15px;
+}
+#img_torch{
+    width: 100%;
+    padding: 10px 0;
+}
+#foot{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#foot input{
+    margin-left: 10px;
+}

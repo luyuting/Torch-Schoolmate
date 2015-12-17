@@ -15,12 +15,14 @@
     <link href="css/part_time_job.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div>
-        亲爱的校友，请在下面的输入框中输入具体的兼职要求，包括时间、地点、联系方式等。
-        <br/>
-        <textarea rows="10" placeholder="具体要求……"></textarea>
-        <div id="con_sub"><input id="submit" type="submit" name="parttime_submit" value="提      交"></div>
-    </div>
-    <div></div>
+    <form action="sub_success.php" method="post">
+        <div>
+            亲爱的校友，请在下面的输入框中输入具体的兼职要求，包括时间、地点、联系方式等。
+            <br/>
+            <textarea rows="10" placeholder="具体要求……" name="requirements"></textarea>
+            <div id="con_sub"><input id="submit" type="submit" name="parttime_submit" value="提      交"></div>
+        </div>
+    </form>
+
 </body>
 </html>
